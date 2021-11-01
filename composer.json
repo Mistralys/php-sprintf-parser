@@ -1,0 +1,36 @@
+{
+	"name" : "mistralys/php-sprintf-parser",
+	"description" : "Parser to find all sprintf format placeholders in a string, and get information on them.",
+	"type" : "library",
+    "license" : "MIT",
+	"authors" : 
+	[
+		{
+			"email" : "s.mordziol@mistralys.eu",
+			"name" : "Sebastian Mordziol",
+			"role" : "Lead"
+		}
+	],
+	"autoload" : 
+	{
+		"classmap" :
+		[
+			"src/"
+		],
+		"files": [
+			"src/functions.php"
+		]
+	},
+	"minimum-stability" : "dev",
+	"prefer-stable" : true,
+	"require" : 
+	{
+		"php": ">=7.4",
+        "ext-mbstring": "*"
+    },
+	"require-dev" : 
+	{
+		"phpunit/phpunit" : "^9.5",
+        "phpstan/phpstan" : "^0.12"
+	}
+}
